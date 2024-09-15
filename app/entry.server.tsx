@@ -45,7 +45,7 @@ export default async function handleRequest(
     ) {
         responseHeaders.set(
             'Cache-Control',
-            'public, max-age=31536000, immutable'
+            'public, max-age=2592000, immutable'
         );
     }
 
