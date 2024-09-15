@@ -10,6 +10,11 @@ import type { LinksFunction } from '@remix-run/node';
 import './main.css';
 
 export const links: LinksFunction = () => [
+    {
+        rel: 'icon',
+        href: '/favicon.jpg',
+        type: 'image/jpg',
+    },
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     {
         rel: 'preconnect',
