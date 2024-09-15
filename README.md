@@ -1,12 +1,12 @@
-![](../public/screenshot.webp)
+![](https://raw.githubusercontent.com/HakeemIshak/hakeemishak.me/master/public/screenshot.webp)
 
-# Hakeem Ishak Personal Site
+# Hakeem Ishak - Home
 
 To get it running:
 
 ```sh
-git@github.com:HakeemIshak/hakeemishak.me.git index
-cd index
+git clone git@github.com:HakeemIshak/hakeemishak.me.git home
+cd home
 npm run dev
 ```
 
