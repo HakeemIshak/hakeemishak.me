@@ -32,7 +32,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <html lang="en">
             <head>
                 <meta charSet="UTF-8" />
-                <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+                <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 
                 <meta name="description" content="Hakeem Ishak personal website" />
                 <meta property="og:site_name" content="HI | Hakeem Ishak"/>
