@@ -1,9 +1,0 @@
-.wrangler
-.DS_Store
-.env
-.dev.vars
-package-lock.json
-
-/build
-/node_modules
-/.cache
