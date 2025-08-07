@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HI | Hakeem Ishak</title>
+    <script src="z.js"></script>
+    <link rel="stylesheet" href="z.css">
+    <link rel="icon" href="z.jpg" type="image/jpeg">
+</head>
+<body>
+
+    <!-- me. -->
+    <header>
+        <p>hakeem.ishak</p>
+        <p>software engineer</p>
+    </header>
+
+    <!-- tabs. -->
+    <div id="tabs" hx-get="/z/about" hx-trigger="load" hx-swap="outerHTML">
+        <nav>
+            <span class="selected">about</span>
+            <span>blog (coming soon)</span>
+            <span>demo</span>
+            <span>suprise me!</span>
+        </nav>
+        <article>
+            <p>loading...</p>
+        </article>
+    </div>
+
+</body>
+</html>

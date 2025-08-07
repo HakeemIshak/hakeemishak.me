@@ -1,0 +1,74 @@
+<div id="tabs">
+   <nav>
+      <span class="selected">about</span>
+      <span hx-get="/z/blog" hx-target="#tabs" hx-swap="outerHTML">blog (coming soon)</span>
+      <span hx-get="/z/demo" hx-target="#tabs" hx-swap="outerHTML">demo</span>
+      <span hx-get="/z/supriseme" hx-target="#tabs" hx-swap="outerHTML">suprise me!</span>
+   </nav>
+   <article id="article">
+      <!-- about. -->
+      <div>
+   <p>about</p>
+   <p>
+      software engineer at shortcut asia 5+ years building stuff that works
+      always curious about new tech frameworks whatever catches my eye
+      vibing with ai to generate frontend code brainrot coding sessions for backend apis
+      secretly want to learn ios swift but never actually start anything official
+      currently having big side project ideas that i probably will never finish
+      when not coding probably reading about distributed systems or procrastinating
+   </p>
+</div>
+<!-- projects. -->
+<div>
+   <p>stuff i built</p>
+   <div>
+      <p>adyen-payment-gateway</p>
+      <p>
+         owned entire payment flow for pixlr saas apple google in-app purchases
+         because someone has to make sure people can actually pay
+      </p>
+      <p>nodejs adyen mongodb uptime-that-matters</p>
+   </div>
+   <div>
+      <p>ai-workflow-integration</p>
+      <p>embedded llms into pixlr workflows enhanced user automation</p>
+      <p>typescript openai-apis product-integration</p>
+   </div>
+   <div>
+      <p>cicd-aws-pipeline</p>
+      <p>automated deployment pipelines reduced friction increased release frequency</p>
+      <p>bitbucket codepipeline ecs-fargate zero-downtime</p>
+   </div>
+   <div>
+      <p>legacy-crm-react-rebuild</p>
+      <p>rebuilt old crm cms systems from scratch because legacy code was pain</p>
+      <p>react typescript modern-ux developer-sanity</p>
+   </div>
+</div>
+      <!-- stuffs. -->
+      <div>
+         <p>skills . stuff i like</p>
+         <ul title="languages . frameworks">
+            <li>javascript typescript nodejs: express hono</li>
+            <li>go: fiber gin</li>
+            <li>python: fastapi</li>
+            <li>frontend: css react next</li>
+         </ul>
+         <ul title="technologies . tools">
+            <li>db: mongodb redis postgresql</li>
+            <li>aws: lambda ecs codepipeline</li>
+            <li>devops: docker kubernetes prometheus grafana</li>
+            <li>apis: rest trpc</li>
+            <li>others: linux git</li>
+         </ul>
+      </div>
+      <!-- contact. -->
+      <div>
+         <p>contact</p>
+         <p>email pm@hakeemishak.me</p>
+         <p>github github.com/HakeemIshak</p>
+         <p>linkedin linkedin.com/in/hakeemishak</p>
+         <!-- <p>instagram instagram.com/wowwowowowwhyyouseethis</p> -->
+      </div>
+   </article>
+</div>

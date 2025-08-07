@@ -1,0 +1,14 @@
+<div id="tabs">
+    <nav>
+        <span hx-get="/z/about" hx-target="#tabs" hx-swap="outerHTML">about</span>
+        <span hx-get="/z/blog" hx-target="#tabs" hx-swap="outerHTML">blog (coming soon)</span>
+        <span hx-get="/z/demo" hx-target="#tabs" hx-swap="outerHTML">demo</span>
+        <span class="selected">suprise me!</span>
+    </nav>
+    <article id="article">
+        <!-- tada. -->
+        <div>
+            <h2>randos...</h2>
+        </div>
+    </article>
+</div>
