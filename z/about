@@ -65,9 +65,9 @@
       <!-- contact. -->
       <div>
          <p>contact</p>
-         <p>email pm@hakeemishak.me</p>
-         <p>github github.com/HakeemIshak</p>
-         <p>linkedin linkedin.com/in/hakeemishak</p>
+         <p>email <a href="mailto:pm@hakeemishak.me">pm@hakeemishak.me</a></p>
+         <p>github <a href="https://github.com/HakeemIshak" target="_blank">github.com/HakeemIshak</a></p>
+         <p>linkedin <a href="https://linkedin.com/in/hakeemishak" target="_blank">linkedin.com/in/hakeemishak</a></p>
          <!-- <p>instagram instagram.com/wowwowowowwhyyouseethis</p> -->
       </div>
    </article>

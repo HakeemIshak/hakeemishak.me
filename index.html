@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="z.css">
     <link rel="icon" href="z.jpg" type="image/jpeg">
 </head>
+
 <body>
 
     <!-- me. -->
@@ -16,7 +18,7 @@
         <p>software engineer</p>
     </header>
 
-    <!-- tabs. -->
+    <!-- tabs -->
     <div id="tabs" hx-get="/z/about" hx-trigger="load" hx-swap="outerHTML">
         <nav>
             <span class="selected">about</span>
@@ -25,9 +27,10 @@
             <span>suprise me!</span>
         </nav>
         <article>
-            <p>loading...</p>
+            <p class="loading">loading...</p>
         </article>
     </div>
 
 </body>
+
 </html>
